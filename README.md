@@ -24,11 +24,12 @@ $ src/testtest_classifier.py
 The output is all the confussion matrix
 
 ### Result
-| Algorithm | True positiv |False positiv |True negativ|False negative|Score|
-|tree classifier|5233|430|7137|0.84|
-|random forest|6477|505|7068|610|0.92|
-|support vector machine|5118|1891|5629|0.73|
-|lineare regression|4759|2249|5752|1900|0.72|
+| Algorithm            | True positiv |False positiv |True negativ|False negative|Score|
+|:---                  |---:          |---:          |---:        |---:          |---: |
+|tree classifier       |5233          |430           |7137        |1860          |0.84 |
+|random forest         |6477          |505           |7068        |610           |0.92 |
+|support vector machine|5118          |1891          |5629        |2022          |0.73 |
+|lineare regression    |4759          |2249          |5752        |1900          |0.72 |
 
 Tree classifier rules :
-
+![tree classifier image](https://raw.githubusercontent.com/JejeB/URL_phising_classification/main/tree.png)
